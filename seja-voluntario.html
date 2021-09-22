@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html >
+
+<head >
+	<title > Sim! Eu Sou Do Meio </title >
+	<meta  charset = " utf-8 " >
+	<meta  name = " viewport " content = " width = device-width, initial-scale = 1.0 " >
+	<link  rel = " stylesheet " type = "text/css" href = "styles.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="sortcut icon" href="./LogoSESM.jpg" type="image/x-icon"/>
+</head >
+
+<body >
+    	<div  class = "container" >
+            <header >
+                
+            <div class="barraSuperior">
+                <div class="contato">
+                <b>Contato:(21) 99677-9604</b>
+                <b>Email: simeusoudomeio@gmail.com</b>
+                </div>
+                
+                <div class="redesSociais">
+                    <a href="http://simeusoudomeio.com.br/"> <img width="25" height="25" src="./imagem/logosf.png"></img> </a>
+                       
+        <a href="https://www.facebook.com/SIMEUSOUDOMEIO/">
+            <img width="25" height="25" src="./imagem/facebook.png" alt="">
+        </a>
+                      <a href="https://www.instagram.com/simeusoudomeio_social/"> <img width="25" height="25" src="./imagem/instagram.png"></img> </a>
+                         
+                    </div>
+            </div>
+
+            <div class="logoMenu">
+
+                <div class="logo">
+                    <a href="index.html">    <img src="./imagem/logo_sesm.png"></img>  </a>
+                </div>
+            <nav class="menu">
+                <ul >
+                    <li> <a  href = "index.html" > Início </a ></li >
+                        <li> <a  href = " quem-somos.html " > Quem somos </a > </li >
+                        <li> <a  href = " o-que-fazemos.html" > O que fazemos</a></li>  
+                        <li> <a  href = " seja-voluntario.html " > Seja voluntário</a></li>
+                        <li> <a  href = " fale-com-a-gente.html" > Fale com a gente</a></li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+
+           <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+           <div>
+            <h1 id="titulos">Venha fazer parte do nosso time</h1>
+            <br>
+        </div>
+
+        <!-- Início do formulário -->
+        <form>
+
+            <fieldset class="grupos">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campos">
+                    <label for="nome"><strong>Nome Completo</strong></label>
+                    <input type="texts" name="nome" id="nome" required>
+                </div>
+
+            <!-- Campo de email com-->
+            <div class="campos">
+                <label for="email"><strong>Email para Contato</strong></label>
+                <input type="emails" name="email" id="email" required>
+            </div>
+
+            <div class="campos">
+                <label for="email"><strong>Telefone para Contato</strong></label>
+                <input type="texts" name="telefone" id="telefone" required>
+            </div>
+
+            <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+            <div class="campos">
+                <label><strong>Como nos Conheceu?</strong></label>
+                <label>
+                    <input type="checkbox" name="site" value="google" checked>Google
+                </label>
+                <label>
+                    <input type="checkbox" name="site" value="atados">Atados
+                </label>
+                <label>
+                    <input type="checkbox" name="site" value="amigos">Amigos
+                </label> </br> 
+                <label for="ajuda">Outros</label>
+                <input type="texts" name="site" value="">
+            </label>
+            </div>
+
+            <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+
+            <fieldset class="grupos">
+                <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                <div id="check">
+                    <label><strong>Quanto tempo do dia você tem disponível para ajudar nosso projeto? </strong></label><br><br>
+                    <input type="checkbox" id="tempo1" name="tempo1" value="uma hora">
+                    <label for="tempo1"> 1 Hora</label>
+                    <input type="checkbox" id="tempo2" name="tempo2" value="duas horas">
+                    <label for="tempo2"> 2 Horas</label>
+                    <input type="checkbox" id="tempo3" name="tempo3" value="três horas">
+                    <label for="tempo3"> 3 Horas</label>
+                    <input type="checkbox" id="tempo4" name="tempo4" value="quatro horas">
+                    <label for="tempo4"> 4 Horas</label>
+                    <input type="checkbox" id="tempo5" name="tempo5" value="cinco horas">
+                    <label for="tempo5"> 5 Horas</label>
+                </div>
+            </fieldset>
+            <br>
+
+            <!-- Caixa de texto -->
+            <div class="campos">
+                <label for="sobre"><strong>Como você poderia nos ajudar? </strong></label>
+                <br>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="sobre"></textarea>
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button class="opcaos" type="submit" onsubmit="">Enviar</button>            
+
+        </form>
+           
+        <script> 
+        Window.alert('vagas aberta');
+        Window.confirm('sem vagas no momento');
+        </script>
+
+
+
+
+            <div class="blog">
+                <h1>Do Meio Para o Mundo</h1>
+                <p>Conheça nosso blog também!</p>
+            </div>
+
+        </body> 
+            <footer>
+                Sim eu Sou do Meio – 2021 © Todos os direitos reservados
+               </footer>
+</html>

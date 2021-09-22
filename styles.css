@@ -1,0 +1,1240 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+    list-style-type: none
+}
+
+.bannerPrincipal{
+    height: 550px;
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 50px;
+   
+}
+
+.container{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.barraSuperior{
+    background-color: #0B350A;
+    width:100%;
+    height: 10vh;
+    color:white;
+    display:flex;
+}
+
+.contato{
+    width:80%;
+    height:100%;
+    display:flex;  
+    align-items: center;    
+}
+
+.contato > b{
+    padding-left: 30px;
+    font-size: 13px;
+}
+
+.redesSociais{
+    width:20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.redesSociais > img{
+    width: 20px;
+}
+
+.logoMenu{
+    background-color:#134712;
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+
+.logo{
+    width:20%;
+    height: 100%;
+}
+
+.logo img {
+    width: 60%;
+    margin-left: 100px;
+    cursor: pointer;
+    background-image: url("index.html");
+}
+
+.logo > img{
+    width: 60%;
+    margin-left: 100px;
+    cursor: pointer;
+    background-image: url("index.html");
+}
+
+.menu {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+       
+}
+
+.menu > ul{
+    display: flex;
+    width: 100%;
+    padding-top: 4%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 19px;        
+}
+
+.menu a {
+    color: white;
+}
+
+.menu a:hover {
+    color:black;
+    text-decoration: underline;
+}
+
+.quemSomos{
+    width: 80%;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Carrossel*/
+.bannerPrincipal{
+    width: 460px;
+  height: 200px;
+  margin: 70px;
+  justify-content: center;
+  margin-left: 470px;
+  margin-top: 150px;
+}
+
+.quemSomos > p {    
+    margin-top: 20px;    
+}
+
+.quemSomos > button{
+    width: 30%;
+    height: 15%;
+    border-radius: 5%;
+    margin-top: 20px;
+    background-color: #134712;
+    color: white;
+    box-shadow: black 10px 10px 10px;
+ 
+}
+
+.botao{
+    color: white;
+}
+
+.atividades {
+    max-width:100vw;
+    height:300px;
+    text-align: center;
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box{
+    max-width:100vW ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.boxAtividades{
+    width:25vw;
+    height: 125px;
+    box-shadow: black 10px 10px 10px;
+    margin-top: 30px;
+    margin-left: 20px;  
+}
+
+.boxAtividades img{
+    width: 100%;
+    height: 125px;
+}  
+
+.boxAtividades p{
+    margin-top: 20px;
+}
+
+.atividades > button{
+    width: 25%;
+    height: 20%;
+    border-radius: 5%;
+    margin-top: 10px;
+    background-color: #134712;
+    color: white;
+    box-shadow: black 10px 10px 10px;
+    margin: auto;
+}
+
+.blog{
+    width:100%;
+    height: 70px;
+    background-color: #134712;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    color: white;
+    text-align: center;
+   
+    bottom: 0;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    bottom:0;
+   
+}
+
+.nossa-acao{
+    margin-left: 20px;
+}
+
+.imagem-quem-somos {
+    width: 30vw;
+    height: 40vh;
+    background-image: url("./imagem/Acao_covid.jpg");
+    background-size: 100% 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.texto{
+    width: 55vw;
+    height: 45vh;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tex{
+    width: 55vw;
+    height: 45vh;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.assunto-texto {
+text-align:justify;
+width: 80%;
+height: 200px;
+margin: auto;
+
+}
+
+.quem-somos{
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.Continuacao-texto{
+    width: 85vw;
+    height: 9vw;
+}
+
+.imagem-hiphop-crianca {
+    background-size: 100% 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.crianca-ballet img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    text-align:start;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.crianca-ballet p{
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-inline-end: 300px;
+    margin-inline-start: 10px;
+    margin:10px;
+    font-size: 1.25rem;
+    font-weight: 100;
+   
+}
+
+.crianca-bailarina img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    text-align:start;
+    margin-right: 30px;
+    margin-top: 10px;
+    float: right;
+    position: absolute; right: 0;
+    font-size: 1em;
+    border-radius: 5px;
+
+   
+}
+
+.crianca-bailarina p{
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 30px;
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-inline-end: 300px;
+    margin-inline-start: 10px;
+    margin:10px;
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    font-weight: 100;
+   
+}
+
+.imagem-texto-meios{
+    display: block;
+    float: right;
+    margin-right: 400px;
+    margin-top: -20px;
+}
+
+
+.essa-rua-representantes img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    text-align:justify;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.essa-rua-representantes p{
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-inline-end: 300px;
+    margin-inline-start: 10px;
+    margin:10px;
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+
+.circo img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    text-align:justify;
+    margin-right: 30px;
+    margin-top: 10px;
+    float: right;
+    font-size: 1em;
+    border-radius: 5px;
+    position: absolute; right: 0;
+}
+
+.circo p{
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-inline-end: 300px;
+    margin-inline-start: 10px;
+    margin:10px;
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+
+.grafite img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    text-align:justify;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.grafite p{
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-inline-end: 300px;
+    margin-inline-start: 10px;
+    margin:10px;
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+
+.atuacao-criancas img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    text-align:start;
+    margin-right: 30px;
+    margin-top: 10px;
+    float: right;
+    position: absolute; right: 0;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.atuacao-criancas p{
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-inline-end: 300px;
+    margin-inline-start: 10px;
+    margin:10px;
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+
+.final-concurso img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    text-align:start;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.final-concurso p{
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-inline-end: 300px;
+    margin-inline-start: 10px;
+    margin:10px;
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+
+.texto-fazemos {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.imagem-Acao_Covid{
+    width: 607;
+    display: flex;
+}
+
+.imagem-peca img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    text-align:start;
+    margin-left: 30px;
+    margin-top: 10px;
+    float: right;
+    position: absolute; right: 0;
+}
+
+.imagem-peca p{
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-inline-end: 300px;
+    margin-inline-start: 10px;
+    margin:10px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: [row];
+    flex-wrap: [wrap];
+    flex: wrap;
+    flex-direction: column;
+    justify-content: [center];
+    max-width: 100%;
+    object-fit : contain;
+    vertical-align:bottom;
+    vertical-align:middle;
+    margin: 10px 50px;
+    display: inline-block;    
+}
+
+.imagem-acao{
+    text-align:start;
+}
+
+.bannerPrincipal{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+}
+
+.do-meio{
+display: flex;
+flex-direction: column;
+}
+
+.Texto-do-Meio img{
+width: 350px;
+height: 350px;
+}
+
+.Texto-do-Meio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-texto-meio{
+display: flex;      
+
+}
+
+.conteinerr{
+    flex-direction: column;
+    justify-content:space-around ;
+    align-items:flex-start;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+
+}
+
+.imagem-texto-mundo img{
+    width: 130px;
+    height: 100px;
+    display: flex;
+    text-align:start;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.texto-da-img p{
+   display:flex;
+   margin-left: 175px;
+   text-align: center;
+}
+
+.imagem-hiphop{
+    width: 30vw;
+    height: 40vh;
+    background-image: url("./imagem/hiphop_crianca.jpg");
+    background-size: 100% 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.imagem-objetivo{
+    width: 30vw;
+    height: 40vh;
+    background-image: url("./imagem/cestas-alimento.jpg");
+    background-size: 100% 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.imagem-valores{
+    width: 30vw;
+    height: 40vh;
+    background-image: url("./imagem/valor.jpg");
+    background-size: 100% 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.imagem-visao{
+    width: 30vw;
+    height: 40vh;
+    background-image: url("./imagem/cesta-basica.jpg");
+    background-size: 100% 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.imagem-missao{
+    width: 30vw;
+    height: 40vh;
+    background-image: url("./imagem/nutricao.jpg");
+    background-size: 100% 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 20px;  
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.texto-da-imgs{
+    width: 25vw;
+    height: 40vh;
+    background-image: url("./imagem/roupas_covid.jpg");
+    background-size: 100% 100%;
+    display:flex;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;  
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.texto-da-imgs p{
+    margin-left: 380px;
+    text-align: justify;
+
+   
+}
+
+.textox p{
+    width: 55vw;
+    height: 45vh;
+    text-align: justify;    
+}
+
+.assunto-textox{
+    width: 55vw;
+    height: 45vh;
+    text-align: center;
+   
+}
+
+.titu{
+    margin-left: 600px;
+}
+
+
+.texto-da-imges{
+    width: 25vw;
+    height: 40vh;
+    background-image: url("./imagem/Ações.png");
+    background-size: 100% 100%;
+    display:flex;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;  
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.texto-da-imges p{
+    margin-left: 380px;
+    text-align: justify;
+
+   
+}
+
+.textoxe p{
+    width: 55vw;
+    height: 45vh;
+    text-align: justify;    
+}
+
+.assunto-textoxe{
+    width: 55vw;
+    height: 45vh;
+    text-align: center;
+   
+}
+
+.titus{
+    margin-left: 600px;
+}
+
+.texto-da-imgss{
+    width: 25vw;
+    height: 40vh;
+    background-image: url("./imagem/brincadeira_covid.jpg");
+    background-size: 100% 100%;
+    display:flex;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;  
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.texto-da-imgss p{
+    margin-left: 380px;
+    text-align: justify;
+}
+
+.textoxes p{
+    width: 55vw;
+    height: 45vh;
+    text-align: justify;
+}
+
+.assunto-textoxss{
+    width: 55vw;
+    height: 45vh;
+    text-align: center;
+}
+
+.tito{
+    margin-left: 600px;
+}
+
+.img-doacao {
+    width: 20vw;
+    height: 40vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("./imagem/exemplo-doacao.jpg");
+    background-size: 100% 100%;
+    display: flex;
+}
+
+.img-doe{
+    width: 20vw;
+    height: 40vh;
+    margin-top: 10px;
+    margin-left: 100px;
+    background-image: url("./imagem/exemplo-doacao.jpg");
+    background-size: 100% 100%;
+    display: flex;
+}
+
+.img-doa{
+    width: 20vw;
+    height: 40vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("./imagem/exemplo-doacao.jpg");
+    background-size: 100% 100%;
+    display: flex;
+}
+
+.doe img{ /* imagens do doe*/
+    width: 200px;
+    height: 200px;
+    display:inline-table;
+    text-align:center;
+    margin-left: 190px;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.texto-doacao{
+
+    height: 20vh;
+    margin-left: 30px;
+    text-align:start;
+   
+}
+
+.nosso-instagram img{
+margin-top: 20px;    
+width: 250px;
+height: 100px;
+float: left;
+}
+
+.nosso-facebook img{
+    margin-top: 20px;  
+    width: 250px;
+    height: 100px;
+}
+
+.contain img{
+    width: 25vw;
+    height: 40vh;
+    background-size: 100% 100%;
+    display:flex;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;  
+}
+
+.contain p{
+    width: 65vw; /* Campo para alterar comprimento das linhas */
+    margin-top: 40px;
+    text-align:start;
+    display: flex;
+}
+
+.o-que-fazemos p{
+    margin-left: 20px;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: #9ACD32;
+    margin-left: 7%;
+   
+}
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+    font-family: sans-serif;
+    color: #9ACD32;
+    margin-left: 10%;
+}
+
+#check{
+    display: inline-block;
+   
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+    border: 0;
+}
+
+/* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    border-radius: 5px;
+   
+}
+
+/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+.grupo:after {
+    clear: both;
+}
+
+/* Elementos de classe "campo" */
+.campo {
+    margin-bottom: 1em;
+    margin-left: 90px;
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+    margin-left: 10px;
+}
+
+
+/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: -3em;
+   
+}
+
+fieldset.grupos {
+    margin-left: 20px;
+}
+
+/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
+.campo input[type="text"], .campo input[type="email"], .campo input[type="number"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid#9ACD32;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+   
+}
+
+
+/* Elementos de classe "campo" de tag <select> e <option>*/
+.campo select option {
+    padding-right: 1em;
+}
+
+/* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #E0E0F8;
+   
+}
+
+.campos input:focus, .campos select:focus, .campos textarea:focus {
+    background: #E0E0F8;
+   
+}
+
+/* Elemento de classe "botao" */
+.opcao {
+    font-size: 1.2em;
+    background: #9ACD32;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    margin-left: 60px;
+    margin-top: 20px;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-left: 145px;
+   
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+   
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao, select{
+    cursor: pointer;
+   
+}
+
+#titulos{
+    font-family: sans-serif;
+    color: #9ACD32;
+    margin-left: 3%;
+    margin-top: 15px;
+}
+
+.opcaos {
+   font-size: 1.2em;
+    background: #9ACD32;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    margin-left: 60px;
+    margin-top: 20px;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-left: 60px;
+   
+}
+
+.campo input[type="texts"], .campo input[type="emails"], .campo input[type="numbers"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid#9ACD32;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+   
+}
+
+
+.grupos:after {
+    clear: both;
+}
+
+/* Elementos de classe "campo" */
+.campos {
+    margin-left: 20px;
+    margin-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grupos:before, .grupos:after {
+    display: table;
+}
+
+    .verde{
+        background-color: green;
+    }
+    .amarelo{
+        background-color: yellow;
+    }
+    .laranja{
+        background-color: orange;
+    }
+
+    .rosa{
+        background-color: palevioletred;
+    }
+
+    .bege{
+        background-color: pink;
+    }
+
+    .gray{
+        background-color: gray;
+    }
+
+    .tabela1{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .tabela2{
+        margin-left: 10px;
+    }
+
+    .tabela3{
+        margin-left: 10px;
+    }
+
+    .tabela4{
+        margin-left: 10px;
+    }
+
+    .tabela5{
+        margin-left: 10px;
+    }
+
+    .tabela6{
+        margin-left: 10px;
+    }
+
+    .cadrasto {
+        margin-top: 9%;
+        display: flex;
+        justify-content: center;
+    }
+   
+    .cadrastoForm {
+        display: flex;
+        justify-content: center;
+        flex-direction: column !important;
+        align-items: center;
+    }
+   
+    .textosCadrasto {
+        display: flex;
+        justify-content: center;
+        flex-direction: column !important;
+        align-items: center;
+    }
+   
+    .tituloCadrasto {
+        color: #7978d1;
+        font-size: 50px;
+    }
+   
+    .iconsLogin {
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+    }
+   
+    .google {
+        width: 50px;
+        height: auto;
+    }
+   
+    .fecebook {
+        margin-left: 10px;
+        width: 50px;
+        height: auto;
+    }
+   
+    .linkedin {
+        margin-left: 10px;
+        width: 50px;
+        height: auto;
+    }
+   
+    .inputLogin {
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column !important;
+        align-items: left;
+    }
+   
+    .tituloNome {
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .nome {
+        padding: 4px;
+        margin-top: 3px;
+        border-radius: 4px;
+        transition: all 0.5s ease-out;
+        width: 300px;
+        height: 30px;
+        border-color: transparent;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .nome:hover {
+        box-shadow: 0 0 1em #34ace0;
+    }
+   
+    .tituloEmail {
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .email {
+        padding: 4px;
+        margin-top: 3px;
+        border-radius: 4px;
+        transition: all 0.5s ease-out;
+        width: 300px;
+        height: 30px;
+        border-color: transparent;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .email:hover {
+        box-shadow: 0 0 1em #34ace0;
+    }
+   
+    .tituloSenha {
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .senha {
+        padding: 4px;
+        margin-top: 3px;
+        border-radius: 4px;
+        transition: all 0.5s ease-out;
+        width: 300px;
+        height: 30px;
+        border-color: transparent;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .senha:hover {
+        box-shadow: 0 0 1em #34ace0;
+    }
+   
+    .butonEntrar {
+        margin-top: 13%;
+    }
+   
+    .entrar {
+        text-decoration: none;
+        color: white;
+        transition: all 0.5s ease-out;
+        background-color: #706fd3;
+        padding: 13px;
+        border-radius: 4px;
+    }
+   
+    .entrar:hover {
+        background-color: #5c5ad4;
+    }
+   
+    .imageUnlock {
+        background-color: #474787;
+        border-radius: 50%;
+        width: 500px;
+        height: 500px;
+        align-items: center;
+        margin-left: 10%;
+        display: flex;
+        justify-content: center;
+    }
+   
+    .verifyImage {
+        width: 500px;
+        height: auto;
+    }
+   
+    @media (max-width: 600px) {
+        .imageUnlock {
+            display: none;
+        }
+    }
+
+/* light css reset */
+* { margin : 0; padding : 0; }
+/*h2, h3, h4, h5, p, ul, ol  { margin : 0 20px; padding : .5em 0; }
+img { border: 0px;}
+
+/* =page level container */
+#container {/*Container que contem o site */
+    margin: 0px auto 0px auto;
+    width: 960px;
+    background:#CAE1FF;
+}
+
+#corpo { /*Div Corpo do site  possui a section*/
+    margin: 1px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    height: 600px;      
+}
+section { /*Div Corpo do site  possui o cabecalho do artigo, o corpo do artigo e o cabecalho*/
+    margin:0px auto 0px auto;
+    width:958px;
+    height:600px;
+    float:left;
+    background:#CAE1FF;
+    margin-left:0px;  
+}
+.artigo {
+    margin:0px auto 0px auto;
+    width:958px;
+    height:350px;
+    float:left;
+    background:#CAE1FF;
+    margin:0px;  
+}
+.txtarea {/*Define a altura do input*/
+    /*background-color:#B0E0E6;*/
+    height: 40px;
+    font: 18px georgia, sans-serif;
+    color:#154ecd;
+}
+
+.campos input[type="texts"], .campos input[type="emails"], .campos input[type="texts"], .campos select, .campos textarea  {
+    padding: 0.2em;
+    border: 1px solid#9ACD32;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+   
+}
+
+.campos input[type="checkbox"] {
+    border: 1px solid#9ACD32;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
